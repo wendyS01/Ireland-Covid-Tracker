@@ -1,0 +1,312 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+/*reference from w3school about box shadow */
+
+header {
+    padding: 3%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+header p {
+    color: maroon;
+    padding-left: 2%;
+}
+
+header h1 {
+    padding-right: 2%;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    padding-left: 6%;
+    padding-top: 12%;
+    padding-bottom: 1%
+}
+
+.intro p {
+    font-size: 20px;
+}
+
+input {
+    border: 2px solid rgb(179, 177, 177);
+    padding: 4px;
+    margin: 0 10px 0 0;
+    width: 65px;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.82;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #F78552;
+    color: white;
+    border-radius: 15px;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #D2DBE7;
+    opacity: 0.6;
+}
+
+#errorhandle p {
+    color: maroon;
+}
+
+
+/*w3school CSS Flexbox*/
+
+.basic {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.sub1 {
+    width: 600px;
+    display: flex;
+    background-color: #D2DBE7;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.sub2 {
+    width: 600px;
+    display: flex;
+    background-color: #D2DBE7;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 26px;
+    padding-bottom: 29px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.sub1 p {
+    width: 70%;
+}
+
+.sub2 p {
+    width: 68%;
+}
+
+#id01 {
+    padding-left: 0.7rem;
+    padding-top: 0.7rem;
+    font-size: 28px;
+    font-weight: 1000;
+}
+
+#id03 {
+    padding-top: 0.4rem;
+    padding-left: 4rem;
+    font-size: 28px;
+    font-weight: 1000;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+    margin: auto;
+    flex-direction: row;
+}
+
+.subject1 {
+    max-width: 300px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 20px;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    background-color: rgb(241, 175, 99);
+    flex: 20%;
+}
+
+.subject2 {
+    max-width: 300px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 20px;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    background-color: #BA9DC8;
+    flex: 20%;
+}
+
+.subject3 {
+    max-width: 300px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 20px;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    background-color: #F78552;
+    flex: 20%;
+}
+
+.subject4 {
+    max-width: 300px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 20px;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    background-color: #6CBBED;
+    flex: 20%;
+}
+
+.box p {
+    text-align: center;
+}
+
+#id04 {
+    text-align: center;
+    padding-top: 0.4rem;
+    font-size: 28px;
+    font-weight: 1000;
+}
+
+#id05 {
+    text-align: center;
+    padding-top: 0.4rem;
+    font-size: 28px;
+    font-weight: 1000;
+}
+
+#id06 {
+    text-align: center;
+    padding-top: 0.4rem;
+    font-size: 28px;
+    font-weight: 1000;
+}
+
+#id07 {
+    text-align: center;
+    padding-top: 0.4rem;
+    font-size: 28px;
+    font-weight: 1000;
+}
+
+svg {
+    margin-left: 5.9rem;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+.table1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    table-layout: fixed;
+    margin: auto;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+    height: 35px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table2 {
+    margin: auto;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.dropmenu {
+    padding-left: 35%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+
+select {
+    margin: 10px 10px;
+    font-size: 15px;
+    border: 2px solid rgb(179, 177, 177);
+    padding: 4px;
+    text-align: center;
+    opacity: 0.82;
+    border-radius: 10px;
+}
+
+.countymaxmin {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.m1,
+.m2 {
+    width: 600px;
+    display: flex;
+    background-color: #D2DBE7;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 15px;
+    margin: auto;
+}
